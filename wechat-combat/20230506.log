@@ -1,0 +1,413 @@
+2023-05-06 20:07:32 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:07:32 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:07:36 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:07:36 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:11:04 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:11:04 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:11:07 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:90) -- expiryList:[1714896290000, 1685952311000]
+2023-05-06 20:11:07 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:98) -- 文件删除成功
+2023-05-06 20:11:19 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:11:19 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:11:21 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:90) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:15:21 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:15:21 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:15:24 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:15:27 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:15:27 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:15:28 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:15:35 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:18:28 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:18:28 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:18:30 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:18:33 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:18:33 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:18:35 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:18:41 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:30:27 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:30:27 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:30:30 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:30:36 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:36:29 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:36:30 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:36:32 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:36:40 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:38:03 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:38:03 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:38:06 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:38:12 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:38:19 INFO  [main] top.testeru.base.BasePage.getMemberListText(ConcatPage.java:63) -- 成员页面：[, 盖盖, , TesterU, 18612725214, gegai@testeru.wecom.work, , , 测试人002, , TesterU, 13912765433, 202210301gaigai002@testeru.wecom.work, , , 宗兆睿, , TesterU, 13165761342, 75430264492@testeru.wecom.work, , , 屠佑, , TesterU, 19456534931, 30137043601@testeru.wecom.work, , , 明飞博, , TesterU, 13067460611, 45151479281@testeru.wecom.work, ]
+2023-05-06 20:43:12 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:43:12 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:43:15 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714911067000, 1685967078000]
+2023-05-06 20:43:20 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 20:43:27 INFO  [main] top.testeru.base.BasePage.getMemberListText(ConcatPage.java:63) -- 成员页面：[, 盖盖, , TesterU, 18612725214, gegai@testeru.wecom.work, , , 测试人002, , TesterU, 13912765433, 202210301gaigai002@testeru.wecom.work, , , 宗兆睿, , TesterU, 13165761342, 75430264492@testeru.wecom.work, , , 屠佑, , TesterU, 19456534931, 30137043601@testeru.wecom.work, , , 明飞博, , TesterU, 13067460611, 45151479281@testeru.wecom.work, , , 司徒光, , TesterU, 15309195694, 91213162990@testeru.wecom.work, ]
+2023-05-06 20:54:44 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:54:44 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:54:48 INFO  [main] top.testeru.CookieTest.getCookieToYaml(CookieTest.java:48) -- 开始进行等待手工扫码登录
+2023-05-06 20:54:58 INFO  [main] top.testeru.CookieTest.getCookieToYaml(CookieTest.java:67) -- 扫码登录后页面跳转成功
+2023-05-06 20:54:58 INFO  [main] top.testeru.CookieTest.getCookieToYaml(CookieTest.java:70) -- 获取登录成功的cookie
+2023-05-06 20:54:58 INFO  [main] top.testeru.CookieTest.getCookieToYaml(CookieTest.java:78) -- cookie存入yaml文件
+2023-05-06 20:58:52 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:58:53 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:111) -- 解析cookie.yaml文件
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:117) -- cookie放入浏览器
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.refid, expiry=null, httpOnly=true, secure=false, value=18038907493287821}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wxpay.corpid, expiry=null, httpOnly=false, secure=false, value=1970325025122988}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.ltype, expiry=null, httpOnly=true, secure=false, value=1}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.d2st, expiry=null, httpOnly=false, secure=false, value=a8381343}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.sid, expiry=null, httpOnly=true, secure=false, value=H9C-j8Xr32Ae16llSJr6Cv4BRA1AQtJ7QNWOnRfStbT-YLAHdNAxG4TQ0X23UE_H}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.c_gdpr, expiry=1714913686000, httpOnly=false, secure=false, value=0}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wxpay.vid, expiry=null, httpOnly=false, secure=false, value=1688852680153105}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.vst, expiry=null, httpOnly=true, secure=false, value=5hFfAJI2GdnRD32nwTAT8meQ8QqWs4XJA1VeMvpfwjjjTIHXiswrY3FU_Mqid6z7mAGoPSbLs2lU3cClw3ziwnMnIzMD-1GxHRrpPjep32LOPCvn7ISolwkVtO5s4jcd-qLc6lFttUXZ3wA1Rhc_O5et3EU7LDmH_S5tCWRszXfz-G_ULeUmoSuhC9RQJXyUNcThc8CLeD3Tygokeym-ogroLIp4GLIz_a6bkgzlXkgbrWOJ9Qj9-KPIv9dkHJ-bskNgLr5tBXziS48WKmNoBQ}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.logined, expiry=null, httpOnly=true, secure=false, value=true}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.vid, expiry=null, httpOnly=false, secure=false, value=1688852680153105}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.i18n_lan, expiry=1685969698000, httpOnly=false, secure=false, value=zh}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.cs_ind, expiry=null, httpOnly=false, secure=false, value=}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:128) -- cookie: {path=/, domain=.work.weixin.qq.com, sameSite=Lax, name=wwrtx.ref, expiry=null, httpOnly=true, secure=false, value=direct}
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:141) -- 生成Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.lambda$cookieLogin$2(CookieTest.java:148) -- 浏览器添加Cookie对象
+2023-05-06 20:58:56 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:151) -- 刷新浏览器
+2023-05-06 20:59:34 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 20:59:34 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 20:59:38 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:111) -- 解析cookie.yaml文件
+2023-05-06 20:59:38 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:117) -- cookie放入浏览器
+2023-05-06 20:59:38 INFO  [main] top.testeru.CookieTest.cookieLogin(CookieTest.java:151) -- 刷新浏览器
+2023-05-06 21:02:23 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:02:23 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:02:53 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:02:53 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:03:57 WARN  [wdm-shutdown-hook] i.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:977) -- Exception closing ChromeDriver: chrome on MAC (null) (Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c0e5a3e82169d666c862d49b6608d22, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:52048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52048/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c0e5a3e82169d666c862d49b6608d22)
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c0e5a3e82169d666c862d49b6608d22, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:52048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52048/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c0e5a3e82169d666c862d49b6608d22
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:148)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:279)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:966)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:919)
+	at io.github.bonigarcia.wdm.WebDriverManager$1.run(WebDriverManager.java:1837)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:144)
+	... 10 common frames omitted
+Caused by: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:130)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:17379
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:121)
+	... 5 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:17379
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:17379
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-05-06 21:04:02 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:04:02 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:04:45 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:04:45 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:05:11 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:05:11 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:05:40 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:05:40 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:06:02 WARN  [wdm-shutdown-hook] i.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:977) -- Exception closing ChromeDriver: chrome on MAC (null) (Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2b70fb4a5dcbf9d046829048247b98d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:53098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53098/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2b70fb4a5dcbf9d046829048247b98d)
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2b70fb4a5dcbf9d046829048247b98d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:53098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53098/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2b70fb4a5dcbf9d046829048247b98d
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:148)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:279)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:966)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:919)
+	at io.github.bonigarcia.wdm.WebDriverManager$1.run(WebDriverManager.java:1837)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:144)
+	... 10 common frames omitted
+Caused by: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:130)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:14137
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:121)
+	... 5 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:14137
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:14137
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-05-06 21:06:11 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:06:11 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:06:44 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:06:44 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:10:26 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:10:26 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:12:36 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:12:36 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:13:18 WARN  [wdm-shutdown-hook] i.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:977) -- Exception closing ChromeDriver: chrome on MAC (null) (Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe966a5a02991d42b3fbca9fb36dd60a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:55812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55812/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe966a5a02991d42b3fbca9fb36dd60a)
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe966a5a02991d42b3fbca9fb36dd60a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/r0/_jtvczfj1g9...}, goog:chromeOptions: {debuggerAddress: localhost:55812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55812/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe966a5a02991d42b3fbca9fb36dd60a
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:148)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:279)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:966)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at io.github.bonigarcia.wdm.WebDriverManager.quit(WebDriverManager.java:919)
+	at io.github.bonigarcia.wdm.WebDriverManager$1.run(WebDriverManager.java:1837)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:144)
+	... 10 common frames omitted
+Caused by: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:130)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:3434
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:121)
+	... 5 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:3434
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:3434
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-05-06 21:13:29 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:13:29 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:15:53 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:15:53 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:17:01 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:209) -- [, 盖盖, , TesterU, 18612725214, gegai@testeru.wecom.work, , , 测试人002, , TesterU, 13912765433, 202210301gaigai002@testeru.wecom.work, ]
+2023-05-06 21:20:25 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:20:25 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:20:33 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:122) -- 跳转到通讯录页面
+2023-05-06 21:20:33 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:138) -- 显示等待页面跳转
+2023-05-06 21:20:35 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:143) -- 跳转到添加成员页面
+2023-05-06 21:21:32 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:170) -- 姓名：测试人002
+2023-05-06 21:21:33 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:175) -- 账号：20221030223312
+2023-05-06 21:21:34 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:181) -- 邮箱：202210301gaigai002
+2023-05-06 21:21:35 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:187) -- 手机号：13912765433
+2023-05-06 21:21:35 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:193) -- 点击保存按钮
+2023-05-06 21:21:35 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:207) -- 等待页面跳转
+2023-05-06 21:22:04 INFO  [main] top.testeru.AddMemberTest.addMemberWithConcatPage(AddMemberTest.java:222) -- 获取所有成员信息：[, 盖盖, , TesterU, 18612725214, gegai@testeru.wecom.work, , , 测试人002, , TesterU, 13912765433, 202210301gaigai002@testeru.wecom.work, ]
+2023-05-06 21:51:07 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 21:51:07 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 21:51:10 INFO  [main] top.testeru.base.BasePage.cookieFileisDelete(BasePage.java:89) -- expiryList:[1714913686000, 1685969698000]
+2023-05-06 21:51:16 INFO  [main] top.testeru.base.BasePage.clickAddMember(ConcatPage.java:28) -- 进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转
+2023-05-06 21:51:22 INFO  [main] top.testeru.base.BasePage.getMemberListText(ConcatPage.java:63) -- 成员页面：[, 盖盖, , TesterU, 18612725214, gegai@testeru.wecom.work, , , 测试人002, , TesterU, 13912765433, 202210301gaigai002@testeru.wecom.work, , , 郦明, , TesterU, 14734572430, 82371293290@testeru.wecom.work, ]
