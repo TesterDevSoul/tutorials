@@ -1,0 +1,324 @@
+2023-04-17 15:52:28 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 15:52:28 INFO  [main] top.testeru.CalculatorTest.addTest(CalculatorTest.java:23) -- 开始进行加法计算
+2023-04-17 15:52:28 INFO  [main] top.testeru.CalculatorTest.addTest(CalculatorTest.java:26) -- 计算结果为：4
+2023-04-17 15:53:12 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 15:53:12 INFO  [main] top.testeru.CalculatorTest.addTest(CalculatorTest.java:23) -- 开始进行加法计算
+2023-04-17 15:53:12 INFO  [main] top.testeru.CalculatorTest.addTest(CalculatorTest.java:26) -- 计算结果为：4
+2023-04-17 16:34:11 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 16:34:11 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:37) -- 开始进行加法计算
+2023-04-17 16:34:11 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:40) -- 计算结果为：9
+2023-04-17 16:34:11 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 16:34:11 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:23) -- 开始进行加法计算
+2023-04-17 16:34:11 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:26) -- 计算结果为：4
+2023-04-17 16:59:44 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 16:59:44 INFO  [main] top.testeru.CalculatorTest.addWithError(CalculatorTest.java:53) -- 开始进行加法计算
+2023-04-17 16:59:44 WARN  [main] top.testeru.Calculator.sum(Calculator.java:48) -- 加数不可以是100！
+2023-04-17 17:08:11 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 17:08:11 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:80) -- 开始进行加法计算
+2023-04-17 17:08:11 WARN  [main] top.testeru.Calculator.sum(Calculator.java:52) -- 请输入[-99,99]范围内的整数
+2023-04-17 17:08:54 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 17:08:54 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:80) -- 开始进行加法计算
+2023-04-17 17:08:54 WARN  [main] top.testeru.Calculator.sum(Calculator.java:52) -- 请输入[-99,99]范围内的整数
+2023-04-17 17:57:04 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 17:57:04 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:80) -- 开始进行加法计算
+2023-04-17 17:57:04 WARN  [main] top.testeru.Calculator.sum(Calculator.java:52) -- 请输入[-99,99]范围内的整数
+2023-04-17 17:57:53 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 17:57:53 INFO  [main] top.testeru.CalculatorTest.addWithNumberFormatException(CalculatorTest.java:53) -- 开始进行加法计算
+2023-04-17 17:57:53 WARN  [main] top.testeru.Calculator.sum(Calculator.java:48) -- 加数不可以是100！
+2023-04-17 18:00:10 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:00:10 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:23) -- 开始进行加法计算
+2023-04-17 18:00:10 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:26) -- 计算结果为：4
+2023-04-17 18:00:36 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:00:36 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:37) -- 开始进行加法计算
+2023-04-17 18:00:36 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:40) -- 计算结果为：9
+2023-04-17 18:46:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:80) -- 开始进行加法计算
+2023-04-17 18:46:52 WARN  [main] top.testeru.Calculator.sum(Calculator.java:52) -- 请输入[-99,99]范围内的整数
+2023-04-17 18:46:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithNumberFormatException(CalculatorTest.java:53) -- 开始进行加法计算
+2023-04-17 18:46:52 WARN  [main] top.testeru.Calculator.sum(Calculator.java:48) -- 加数不可以是100！
+2023-04-17 18:46:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:37) -- 开始进行加法计算
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:40) -- 计算结果为：9
+2023-04-17 18:46:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:23) -- 开始进行加法计算
+2023-04-17 18:46:52 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:26) -- 计算结果为：4
+2023-04-17 18:47:12 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:47:12 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:91) -- 开始进行字符串拼接计算
+2023-04-17 18:47:12 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:93) -- 计算结果为：Hello JUnit5
+2023-04-17 18:48:31 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 18:48:31 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:102) -- 开始进行字符串拼接计算
+2023-04-17 18:48:31 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:104) -- 计算结果为：这里 是 北京
+2023-04-17 19:43:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 19:43:52 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 19:45:43 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 19:45:43 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:143) -- 加法计算结果：8
+2023-04-17 19:45:43 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:152) -- 减法计算结果：2
+2023-04-17 19:45:43 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:156) -- 字符串计算结果：混合结果 2
+2023-04-17 19:45:43 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 19:48:15 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 19:48:15 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:143) -- 加法计算结果：8
+2023-04-17 19:48:15 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:152) -- 减法计算结果：2
+2023-04-17 19:48:15 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:156) -- 字符串计算结果：混合结果 2
+2023-04-17 19:48:15 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:02:36 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:02:36 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.strWithTwoEnTest(CalculatorProTest.java:125) -- 计算结果为：Hello JUnit5
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.addWithThreeIntTest(CalculatorProTest.java:75) -- 计算结果为：9
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:149) -- 加法计算结果：8
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:158) -- 减法计算结果：2
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:162) -- 字符串计算结果：混合结果 2
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.strWithThreeZhTest(CalculatorProTest.java:136) -- 计算结果为：这里 是 北京
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:02:36 INFO  [main] top.testeru.CalculatorProTest.addWithTwoIntTest(CalculatorProTest.java:63) -- 计算结果为：4
+2023-04-17 21:02:36 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:03:24 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:03:24 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.strWithTwoEnTest(CalculatorProTest.java:125) -- 计算结果为：Hello JUnit5
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.addWithThreeIntTest(CalculatorProTest.java:75) -- 计算结果为：9
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:149) -- 加法计算结果：8
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:158) -- 减法计算结果：2
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:162) -- 字符串计算结果：混合结果 2
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.strWithThreeZhTest(CalculatorProTest.java:136) -- 计算结果为：这里 是 北京
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:03:24 INFO  [main] top.testeru.CalculatorProTest.addWithTwoIntTest(CalculatorProTest.java:63) -- 计算结果为：4
+2023-04-17 21:03:24 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 加法 计算
+2023-04-17 21:04:03 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 加法 计算
+2023-04-17 21:04:03 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.strWithTwoEnTest(CalculatorProTest.java:125) -- 计算结果为：Hello JUnit5
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 加法 计算
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.addWithThreeIntTest(CalculatorProTest.java:75) -- 计算结果为：9
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 混合 计算
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:149) -- 加法计算结果：8
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:158) -- 减法计算结果：2
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:162) -- 字符串计算结果：混合结果 2
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 字符串拼接 计算
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.strWithThreeZhTest(CalculatorProTest.java:136) -- 计算结果为：这里 是 北京
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:54) -- 开始进行 加法 计算
+2023-04-17 21:04:03 INFO  [main] top.testeru.CalculatorProTest.addWithTwoIntTest(CalculatorProTest.java:63) -- 计算结果为：4
+2023-04-17 21:04:03 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:48:22 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:48:22 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:48:22 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.strWithTwoEnTest(CalculatorProTest.java:156) -- 计算结果为：Hello JUnit5
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.addWithThreeIntTest(CalculatorProTest.java:112) -- 计算结果为：9
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为0
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 混合 计算
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:176) -- 加法计算结果：8
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:185) -- 减法计算结果：2
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.mixTest(CalculatorProTest.java:189) -- 字符串计算结果：混合结果 2
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为null
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.strWithThreeZhTest(CalculatorProTest.java:165) -- 计算结果为：这里 是 北京
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.addWithTwoIntTest(CalculatorProTest.java:102) -- 计算结果为：4
+2023-04-17 21:48:22 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 计算结果为0
+2023-04-17 21:48:22 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:53:44 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:53:44 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 加法 计算
+2023-04-17 21:53:44 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 加法 计算
+2023-04-17 21:53:45 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 字符串拼接 计算
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 加法 计算
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为9
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 混合 计算
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 加法计算结果：8
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:56) -- 减法计算结果为2
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 字符串计算结果：混合结果 2
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 字符串拼接 计算
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:94) -- 开始进行 加法 计算
+2023-04-17 21:53:45 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为4
+2023-04-17 21:53:45 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:54:52 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:54:52 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为0
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:54:52 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为0
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：Hello JUnit5
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为9
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 混合 计算
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：8
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为2
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：混合结果 2
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：这里 是 北京
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:54:52 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为4
+2023-04-17 21:54:52 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:55:30 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:55:30 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为0
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:55:30 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为0
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：Hello JUnit5
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为9
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 混合 计算
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：8
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果为2
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：混合结果 2
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：这里 是 北京
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:55:30 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果为4
+2023-04-17 21:55:30 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:56:13 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:56:13 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果：0
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:56:13 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果：0
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：null
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：Hello JUnit5
+2023-04-17 21:56:13 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果：9
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 混合 计算
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：8
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:58) -- 减法计算结果：2
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:59) -- 字符串计算结果：混合结果 2
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 字符串拼接 计算
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:55) -- 字符串计算结果：这里 是 北京
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:93) -- 开始进行 加法 计算
+2023-04-17 21:56:14 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:51) -- 加法计算结果：4
+2023-04-17 21:56:14 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:15 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:15 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:93) -- 开始进行加法计算
+2023-04-17 21:58:15 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:58:15 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithNumberFormatException(CalculatorTest.java:62) -- 开始进行加法计算
+2023-04-17 21:58:16 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:141) -- 加法计算结果：8
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:150) -- 减法计算结果：2
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithSubWithStr(CalculatorTest.java:154) -- 字符串计算结果：混合结果 2
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:108) -- 开始进行字符串拼接计算
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:111) -- 计算结果为：Hello JUnit5
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:46) -- 开始进行加法计算
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:49) -- 计算结果为：9
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:123) -- 开始进行字符串拼接计算
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:126) -- 计算结果为：这里 是 北京
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:30) -- 开始进行加法计算
+2023-04-17 21:58:16 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:33) -- 计算结果为：4
+2023-04-17 21:58:16 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithIllegalArgumentException(CalculatorTest.java:93) -- 开始进行加法计算
+2023-04-17 21:59:23 WARN  [main] top.testeru.Calculator.sum(Calculator.java:51) -- 请输入[-99,99]范围内的整数
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithNumberFormatException(CalculatorTest.java:62) -- 开始进行加法计算
+2023-04-17 21:59:23 WARN  [main] top.testeru.Calculator.sum(Calculator.java:47) -- 加数不可以是100！
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:108) -- 开始进行字符串拼接计算
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.strWithTwoEnTest(CalculatorTest.java:111) -- 计算结果为：Hello JUnit5
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.mix(CalculatorTest.java:141) -- 加法计算结果：8
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.mix(CalculatorTest.java:150) -- 减法计算结果：2
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.mix(CalculatorTest.java:154) -- 字符串计算结果：混合结果 2
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:46) -- 开始进行加法计算
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithThreeIntTest(CalculatorTest.java:49) -- 计算结果为：9
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:123) -- 开始进行字符串拼接计算
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.strWithThreeZhTest(CalculatorTest.java:126) -- 计算结果为：这里 是 北京
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:30) -- 开始进行加法计算
+2023-04-17 21:59:23 INFO  [main] top.testeru.CalculatorTest.addWithTwoIntTest(CalculatorTest.java:33) -- 计算结果为：4
+2023-04-17 21:59:23 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 22:14:44 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:99) -- 开始进行 加法 计算
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:56) -- 加法计算结果：4
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:99) -- 开始进行 加法 计算
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:56) -- 加法计算结果：9
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:99) -- 开始进行 加法 计算
+2023-04-17 22:14:44 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:56) -- 加法计算结果：11
+2023-04-17 22:14:44 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 
+2023-04-17 22:44:11 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:23) -- 创建 计算器 
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:100) -- 开始进行 加法 计算
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:100) -- 开始进行 加法 计算
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:100) -- 开始进行 加法 计算
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.beforeEach(CalculatorProTest.java:100) -- 开始进行 加法 计算
+2023-04-17 22:44:11 INFO  [main] top.testeru.CalculatorProTest.afterEach(CalculatorProTest.java:57) -- 加法计算结果：0
+2023-04-17 22:44:11 INFO  [main] top.testeru.Calculator.close(Calculator.java:41) -- 关闭 计算器 

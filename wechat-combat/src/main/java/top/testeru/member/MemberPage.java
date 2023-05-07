@@ -1,5 +1,6 @@
 package top.testeru.member;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,6 +38,7 @@ public class MemberPage extends BasePage {
     //第一种：首页点击跳转到添加成员方法
     //第二种：从通讯录页面点击跳转到添加成员方法
     //正确的添加成员
+    @Step("添加成员")
     public ConcatPage addMemberTrue(User user){
         System.out.println("添加成员，成员的正确添加");
         addMemberStep(user);

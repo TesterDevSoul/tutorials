@@ -1,0 +1,469 @@
+2023-04-20 12:04:09 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 12:04:09 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 12:04:09 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 16:13:22 INFO  [main] t.testeru.dynamic.top.testeru.basic.An_01Test_Test.sum(An_01Test_Test.java:32) -- Sum Result：10
+2023-04-20 16:13:22 INFO  [main] t.testeru.dynamic.top.testeru.basic.An_01Test_Test.sum1(An_01Test_Test.java:37) -- Sum Result：3
+2023-04-20 16:13:22 INFO  [main] t.testeru.dynamic.top.testeru.basic.An_01Test_Test.sum2(An_01Test_Test.java:42) -- Sum Result：4
+2023-04-20 16:13:22 INFO  [main] t.testeru.dynamic.top.testeru.basic.An_01Test_Test.sum3(An_01Test_Test.java:47) -- Sum Result：5
+2023-04-20 16:13:22 INFO  [main] t.testeru.dynamic.top.testeru.basic.An_01Test_Test.sum4(An_01Test_Test.java:52) -- Sum Result：6
+2023-04-20 16:49:34 INFO  [main] top.testeru.basic.AssertEqualsTest.sum2(AssertEqualsTest.java:51) -- 
+Sum Result：4
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.each(AnEachTest.java:24) -- @Each ：Every @Test Before And After run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.beforeEach(AnEachTest.java:48) -- Every @Test Before run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.one(AnEachTest.java:33) -- Result：2
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.one(AnEachTest.java:35) -- assertEquals is True
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.each(AnEachTest.java:24) -- @Each ：Every @Test Before And After run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.afterEach(AnEachTest.java:28) -- Every @Test After run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.each(AnEachTest.java:24) -- @Each ：Every @Test Before And After run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.beforeEach(AnEachTest.java:48) -- Every @Test Before run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.two(AnEachTest.java:41) -- Sum Result：10
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.two(AnEachTest.java:43) -- assertEquals is True
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.each(AnEachTest.java:24) -- @Each ：Every @Test Before And After run...
+2023-04-20 19:11:18 INFO  [main] top.testeru.basic.AnEachTest.afterEach(AnEachTest.java:28) -- Every @Test After run...
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.beforeAll(AnAllTest.java:47) -- All Annotation Before run...
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.beforeEach(AnAllTest.java:43) -- Every @Test Before run...
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.one(AnAllTest.java:30) -- Result：2
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.one(AnAllTest.java:32) -- assertEquals is True
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.afterEach(AnAllTest.java:25) -- Every @Test After run...
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.beforeEach(AnAllTest.java:43) -- Every @Test Before run...
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.two(AnAllTest.java:37) -- Sum Result：10
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.two(AnAllTest.java:39) -- assertEquals is True
+2023-04-20 19:22:59 INFO  [main] top.testeru.basic.AnAllTest.afterEach(AnAllTest.java:25) -- Every @Test After run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.beforeAll(AnAllTest.java:52) -- All Annotation Before run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.all(AnAllTest.java:22) -- @All ：All @Test Before And After run Once...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.beforeEach(AnAllTest.java:48) -- Every @Test Before run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.one(AnAllTest.java:35) -- Result：2
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.one(AnAllTest.java:37) -- assertEquals is True
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.afterEach(AnAllTest.java:30) -- Every @Test After run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.beforeEach(AnAllTest.java:48) -- Every @Test Before run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.two(AnAllTest.java:42) -- Sum Result：10
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.two(AnAllTest.java:44) -- assertEquals is True
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.afterEach(AnAllTest.java:30) -- Every @Test After run...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.all(AnAllTest.java:22) -- @All ：All @Test Before And After run Once...
+2023-04-20 19:33:22 INFO  [main] top.testeru.basic.AnAllTest.afterAll(AnAllTest.java:26) -- All Annotation After run...
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:13:43 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- a / b = 
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- a / b = 
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:44:20 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:45:00 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:48:18 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 20:50:45 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:50:45 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:50:45 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:50:45 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:50:45 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:51:06 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 20:51:06 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 20:51:06 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:33) -- 开始计算器测试
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:25) -- 每个计算前 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:29) -- 每个计算后 清0校验
+2023-04-20 21:09:37 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:37) -- 计算器测试结束
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:94) -- 开始计算器测试
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:86) -- 每个计算前 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:90) -- 每个计算后 清0校验
+2023-04-20 21:20:45 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:98) -- 计算器测试结束
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:77) -- 开始计算器测试
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:36 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:81) -- 计算器测试结束
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:77) -- 开始计算器测试
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:69) -- 每个计算前 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:73) -- 每个计算后 清0校验
+2023-04-20 21:38:58 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:81) -- 计算器测试结束
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:78) -- 开始计算器测试
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:70) -- 每个计算前 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:74) -- 每个计算后 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:70) -- 每个计算前 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:74) -- 每个计算后 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:70) -- 每个计算前 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:74) -- 每个计算后 清0校验
+2023-04-20 21:39:14 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:82) -- 计算器测试结束
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:58) -- 开始计算器测试
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:37 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:62) -- 计算器测试结束
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:58) -- 开始计算器测试
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:42:52 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:62) -- 计算器测试结束
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.bf(Calculator03Test.java:58) -- 开始计算器测试
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.be(Calculator03Test.java:50) -- 每个计算前 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.ae(Calculator03Test.java:54) -- 每个计算后 清0校验
+2023-04-20 21:43:29 INFO  [main] top.testeru.cal.Calculator03Test.af(Calculator03Test.java:62) -- 计算器测试结束
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:53:18 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:55:55 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:56:11 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 21:56:11 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:05 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:06:30 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:07:21 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:08:38 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.bf(Calculator01Test.java:33) -- 开始计算器测试
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.be(Calculator01Test.java:25) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.ae(Calculator01Test.java:29) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator01Test.af(Calculator01Test.java:37) -- 计算器测试结束
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 1 / 2 = 0.0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:12 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.bf(Calculator02Test.java:100) -- 开始计算器测试
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 1 + 3 = 4
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- 0 + 0 = 0
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.Calculator.division(Calculator.java:29) -- 0 / 5 = 0.0
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.be(Calculator02Test.java:92) -- 每个计算前 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.Calculator.sum(Calculator.java:22) -- -1 + -5 = -6
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.ae(Calculator02Test.java:96) -- 每个计算后 清0校验
+2023-04-20 22:10:31 INFO  [main] top.testeru.cal.Calculator02Test.af(Calculator02Test.java:104) -- 计算器测试结束

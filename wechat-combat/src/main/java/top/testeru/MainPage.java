@@ -1,5 +1,6 @@
 package top.testeru;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ public class MainPage extends BasePage {
      * 无参数构造进行driver 数据声明
      * 有参构造进行driver传递
      */
+
     public MainPage() {
     }
 
@@ -24,6 +26,7 @@ public class MainPage extends BasePage {
 
 
     //点击通讯录的tab,跳转到通讯录
+    @Step("进入通讯录页")
     public ConcatPage toConcatPage(){
         System.out.println("跳转到通讯录页面");
          click(menuContacts);

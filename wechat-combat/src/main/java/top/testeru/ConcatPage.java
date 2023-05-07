@@ -1,5 +1,6 @@
 package top.testeru;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,6 +25,7 @@ public class ConcatPage extends BasePage {
     private By memberTd = By.className("member_colRight_memberTable_td");
 
     //点击添加成员按钮，跳转到添加成员页面
+    @Step("进入添加成员页")
     public MemberPage clickAddMember(){
         logger.info("进入了通讯录页面，在通讯录页面进行点击添加成员操作，页面跳转");
         //2. 点击添加成员按钮
@@ -46,6 +48,7 @@ public class ConcatPage extends BasePage {
 
 
     //获取当前通讯录的成员文本的列表
+    @Step("获取当前通讯录的成员列表")
     public List<String> getMemberListText(){
         //member_colRight_memberTable_td   27
         //List<WebElement> tdEleList = driver.findElements(By.className("member_colRight_memberTable_td"));

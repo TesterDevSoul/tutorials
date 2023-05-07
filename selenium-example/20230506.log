@@ -1,0 +1,8 @@
+2023-05-06 11:38:51 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 11:38:51 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 11:39:31 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 11:39:31 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 11:40:22 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 11:40:22 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver
+2023-05-06 14:37:07 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238) -- Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+2023-05-06 14:37:07 INFO  [main] i.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291) -- Exporting webdriver.chrome.driver as /Users/gaigai/.cache/selenium/chromedriver/mac64/113.0.5672.63/chromedriver

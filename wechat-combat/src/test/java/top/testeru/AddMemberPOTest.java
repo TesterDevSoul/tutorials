@@ -1,5 +1,6 @@
 package top.testeru;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import top.testeru.entity.User;
@@ -22,6 +23,7 @@ public class AddMemberPOTest {
     static MainPage mainPage;
     @Test
     @DisplayName("添加成员")
+    @Step("添加成员测试用例")
     public void addMemberTrue() {
         User user = new User(FakerUtil.getName(),FakerUtil.getAccount(),FakerUtil.getAccount(),FakerUtil.getPhone());
         mainPage = new MainPage();
