@@ -1,0 +1,4 @@
+2023-05-13 11:12:07:062 [Appium] Welcome to Appium v1.22.3
+2023-05-13 11:12:07:063 [Appium] Non-default server args:
+2023-05-13 11:12:07:064 [Appium]   logFile: appiumserver.log
+2023-05-13 11:12:07:089 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
