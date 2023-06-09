@@ -1,0 +1,395 @@
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "研发部66",
+    "parentid": 1,
+    "order": 86
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:12:08 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298328480131802085183], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298328480131802085183], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部95",
+    "parentid": 1,
+    "order": 29
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:13:28 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298408500613901257310], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298408500613901257310], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部47",
+    "parentid": 1,
+    "order": 49
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:14:12 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298452612130933798749], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298452612130933798749], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "总经办42",
+    "parentid": 1,
+    "order": 42
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:40:38 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483649
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部12",
+    "parentid": 1,
+    "order": 92
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:44:15 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483650
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部84",
+    "parentid": 1,
+    "order": 12
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:58:28 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "人力资源部80",
+    "parentid": 1,
+    "order": 21
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:01:55 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "企划部57",
+    "parentid": 1,
+    "order": 73
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:02:54 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部92",
+    "parentid": 1,
+    "order": 41
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:04:20 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部53",
+    "parentid": 1,
+    "order": 88
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:05:48 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部43",
+    "parentid": 1,
+    "order": 54
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:06:33 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483651
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部87",
+    "parentid": 1,
+    "order": 16
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:07:12 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483652
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部15",
+    "parentid": 1,
+    "order": 76
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:10:13 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483653
+}

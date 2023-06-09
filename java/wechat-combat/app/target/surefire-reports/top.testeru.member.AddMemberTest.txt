@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: top.testeru.member.AddMemberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 100.277 s - in top.testeru.member.AddMemberTest

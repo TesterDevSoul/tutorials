@@ -1,0 +1,505 @@
+2023-06-09 14:49:00 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:262) -- errcode:0
+2023-06-09 14:49:00 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:265) -- errmsg:ok
+2023-06-09 14:49:00 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:268) -- access_token:975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+2023-06-09 15:08:15 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:264) -- errcode:0
+2023-06-09 15:08:15 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:267) -- errmsg:ok
+2023-06-09 15:08:15 INFO  [main] top.testeru.GetTokenTest.getTokenWithFile(GetTokenTest.java:270) -- access_token:975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+2023-06-09 16:12:05 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:12:05 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"研发部66","parentid":1,"order":86}
+2023-06-09 16:12:05 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:89) -- POST请求
+2023-06-09 16:12:07 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 16:12:07 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "研发部66",
+    "parentid": 1,
+    "order": 86
+}
+2023-06-09 16:12:08 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:12:08 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298328480131802085183], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298328480131802085183], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+2023-06-09 16:12:09 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:36) -- 新增部门id:0
+2023-06-09 16:13:24 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:13:25 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"工程部95","parentid":1,"order":29}
+2023-06-09 16:13:25 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:89) -- POST请求
+2023-06-09 16:13:27 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 16:13:27 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部95",
+    "parentid": 1,
+    "order": 29
+}
+2023-06-09 16:13:28 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:13:28 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298408500613901257310], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298408500613901257310], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+2023-06-09 16:13:28 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:36) -- 新增部门id:0
+2023-06-09 16:14:08 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:14:09 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"采购部47","parentid":1,"order":49}
+2023-06-09 16:14:09 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:89) -- POST请求
+2023-06-09 16:14:10 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 16:14:10 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部47",
+    "parentid": 1,
+    "order": 49
+}
+2023-06-09 16:14:11 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:14:12 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 188
+Connection: keep-alive
+Server: nginx
+Error-Code: 60020
+Error-Msg: not allow to access from your ip, hint: [1686298452612130933798749], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020
+
+{
+    "errcode": 60020,
+    "errmsg": "not allow to access from your ip, hint: [1686298452612130933798749], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=60020"
+}
+2023-06-09 16:14:12 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:36) -- 新增部门id:0
+2023-06-09 16:40:34 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:40:35 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"总经办42","parentid":1,"order":42}
+2023-06-09 16:40:35 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:89) -- POST请求
+2023-06-09 16:40:36 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 16:40:36 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "总经办42",
+    "parentid": 1,
+    "order": 42
+}
+2023-06-09 16:40:38 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:40:38 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483649
+}
+2023-06-09 16:44:12 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:44:12 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"工程部12","parentid":1,"order":92}
+2023-06-09 16:44:12 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:89) -- POST请求
+2023-06-09 16:44:14 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 16:44:14 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=975oRzj9I66K1o5UySjIii8MAuNb28rMcZ_te-zKAgxJZxVDDbX22e5vAzEdx4rWzsmDHq6kFG5IyuGCkhP6bAksqBMcs_DLD7pjVOoF8z9maBuKk_l9UUriJXJbz9-aqc0q3N1e9hAl2YM3xSp4PbTmzmx4QfW-1QCYavowDsDJ64_FB18P80-oMMtoh0kCeGSYKSv22yKtJvNYgn52qA
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部12",
+    "parentid": 1,
+    "order": 92
+}
+2023-06-09 16:44:15 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:44:15 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483650
+}
+2023-06-09 16:44:16 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:36) -- 新增部门id:2147483650
+2023-06-09 16:58:23 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 16:58:23 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"工程部84","parentid":1,"order":12}
+2023-06-09 16:58:23 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:84) -- POST请求
+2023-06-09 16:58:25 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:84) -- 重新请求token
+2023-06-09 16:58:25 INFO  [main] top.testeru.api.BaseApi.getToken(GetTokenApi.java:30) -- 调用GetTokenAPI
+2023-06-09 16:58:25 INFO  [main] top.testeru.api.BaseApi.getToken(GetTokenApi.java:40) -- token解析对象为：{qa={sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b, corpsecret=6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}}, dev={sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b0, corpsecret=6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}}, master={contacts2={corpid=1wwecb0ab2da18a7c3b, corpsecret=16Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}, sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b, corpsecret=6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}}}
+2023-06-09 16:58:25 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:75) -- GET请求
+2023-06-09 16:58:27 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "工程部84",
+    "parentid": 1,
+    "order": 12
+}
+2023-06-09 16:58:27 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 08:58:28 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+2023-06-09 16:58:27 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:0
+2023-06-09 17:01:52 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:01:52 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"人力资源部80","parentid":1,"order":21}
+2023-06-09 17:01:52 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:84) -- POST请求
+2023-06-09 17:01:54 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 17:01:54 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "人力资源部80",
+    "parentid": 1,
+    "order": 21
+}
+2023-06-09 17:01:55 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:01:55 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+2023-06-09 17:01:56 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:0
+2023-06-09 17:02:51 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:02:52 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"企划部57","parentid":1,"order":73}
+2023-06-09 17:02:52 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:84) -- POST请求
+2023-06-09 17:02:53 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 17:02:53 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "企划部57",
+    "parentid": 1,
+    "order": 73
+}
+2023-06-09 17:02:54 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:02:54 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+2023-06-09 17:02:55 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:0
+2023-06-09 17:04:17 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:04:17 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"采购部92","parentid":1,"order":41}
+2023-06-09 17:04:17 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:86) -- POST请求
+2023-06-09 17:04:19 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- 直接使用token
+2023-06-09 17:04:19 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部92",
+    "parentid": 1,
+    "order": 41
+}
+2023-06-09 17:04:20 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:04:20 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+2023-06-09 17:04:21 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:0
+2023-06-09 17:05:45 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:05:45 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"采购部53","parentid":1,"order":88}
+2023-06-09 17:05:45 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:86) -- POST请求
+2023-06-09 17:05:47 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:76) -- now:1686301547044
+2023-06-09 17:05:47 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- time:1686308305573
+2023-06-09 17:05:47 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:79) -- 直接使用token
+2023-06-09 17:05:47 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=invalid%20credential%2C%20hint%3A%20%5B1686301106307412660271106%5D%2C%20from%20ip%3A%2061.48.133.107%2C%20more%20info%20at%20https%3A%2F%2Fopen.work.weixin.qq.com%2Fdevtool%2Fquery%3Fe%3D40001
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=invalid credential, hint: [1686301106307412660271106], from ip: 61.48.133.107, more info at https://open.work.weixin.qq.com/devtool/query?e=40001
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "采购部53",
+    "parentid": 1,
+    "order": 88
+}
+2023-06-09 17:05:48 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:05:48 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 49
+Connection: keep-alive
+Server: nginx
+Error-Code: 40014
+Error-Msg: invalid access_token
+
+{
+    "errcode": 40014,
+    "errmsg": "invalid access_token"
+}
+2023-06-09 17:05:48 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:0
+2023-06-09 17:06:29 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:06:29 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"管理部43","parentid":1,"order":54}
+2023-06-09 17:06:29 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:86) -- POST请求
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:76) -- now:1686301591235
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- time:1686301547040
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:86) -- 重新请求token
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.getToken(GetTokenApi.java:30) -- 调用GetTokenAPI
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.getToken(GetTokenApi.java:40) -- token解析对象为：{qa={sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b, corpsecret=6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}}, dev={sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b0, corpsecret=6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}}, master={contacts2={corpid=1wwecb0ab2da18a7c3b, corpsecret=16Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0}, sendMessage={corpid=wwecb0ab2da18a7c3b, corpsecret=Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM}, contacts={corpid=wwecb0ab2da18a7c3b, corpsecret=6Yg1wwQ_gZIUTXezXfVtnYAPuE27iajhduOtI369Gqg}}}
+2023-06-09 17:06:31 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:77) -- GET请求
+2023-06-09 17:06:33 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部43",
+    "parentid": 1,
+    "order": 54
+}
+2023-06-09 17:06:33 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:06:33 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483651
+}
+2023-06-09 17:06:33 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:2147483651
+2023-06-09 17:07:09 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:07:09 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"管理部87","parentid":1,"order":16}
+2023-06-09 17:07:09 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:86) -- POST请求
+2023-06-09 17:07:11 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:76) -- now:1686301631104
+2023-06-09 17:07:11 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- time:1686308791242
+2023-06-09 17:07:11 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:79) -- 直接使用token
+2023-06-09 17:07:11 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部87",
+    "parentid": 1,
+    "order": 16
+}
+2023-06-09 17:07:12 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:07:12 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483652
+}
+2023-06-09 17:07:13 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:2147483652
+2023-06-09 17:10:10 INFO  [main] com.apifan.common.random.util.JsonUtils.getRealJsonConverter(JsonUtils.java:94) -- 将使用 jackson
+2023-06-09 17:10:10 INFO  [main] top.testeru.api.DepartApiTest.add(DepartApiTest.java:32) -- 替换后的depart：{"name":"管理部15","parentid":1,"order":76}
+2023-06-09 17:10:10 INFO  [main] top.testeru.api.BaseApi.run(BaseApi.java:86) -- POST请求
+2023-06-09 17:10:12 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:76) -- now:1686301812078
+2023-06-09 17:10:12 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:77) -- time:1686308791242
+2023-06-09 17:10:12 INFO  [main] top.testeru.api.BaseApi.getToken(TokenFilter.java:79) -- 直接使用token
+2023-06-09 17:10:12 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:43) -- 接口请求日志为：
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=2lKryN5w5-wxVlMAAU6D86PHzVDAhMLu0tf_ThrcXhApQJQNBGW0yveOaPbmADb0iCT_O9fC-1LgXfIHJE_DDiM1hddLx1tVs6ls3hFUl83u6lLFwM1sqrE3Zm4kltAtZ5FPocwm6jniVETu2GfOJVU9pj3fCrV5DGYZjATi6_uf1iTIIpzRhHxUNhRWWABSCKShbBzwaQtRUKULNCPYYg
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "管理部15",
+    "parentid": 1,
+    "order": 76
+}
+2023-06-09 17:10:13 INFO  [main] top.testeru.api.BaseApi.filter(TokenFilter.java:56) -- 接口响应日志为：
+HTTP/1.1 200 OK
+Date: Fri, 09 Jun 2023 09:10:13 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 48
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2147483653
+}
+2023-06-09 17:10:14 INFO  [main] top.testeru.api.BaseApi.add(DepartApi.java:31) -- 新增部门id:2147483653

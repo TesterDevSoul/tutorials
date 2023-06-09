@@ -1,0 +1,11 @@
+desc: 成员相关测试用例
+methods:
+  - method: addMemberTest
+    desc: 添加成员测试
+    tags: [dev, realse]
+    steps:
+      - pages/app/android/MainPage.yaml#toConcatPage
+      - pages/app/android/ConcatPage.yaml#toAddMemberPage
+      - username = FakerUtil#get_name
+      - zhPhone = FakerUtil#get_zh_phone
+      - pages/app/android/AddMemberPage.yaml#editAddMember

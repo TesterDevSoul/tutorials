@@ -1,0 +1,32 @@
+testEnv: release #运行用例的环境 release：线上、dev：开发、test：测试
+appDriver: appium #driver声明，使用appium框架
+appModule: Debug #日志打印级别 debug的日志级别
+retryCount: 3  #重试机制，最多重试3次
+
+caps:
+  - chromedriverpath: #chromedriver路径配置，可不配
+    host: 127.0.0.1
+desiredCapabilities:
+  - platformName: 'android' # 安卓手机
+    udid: 'emulator-5554'  # 设备ID
+    deviceName: 'emulator-5554' # 设备名
+    restart: true # 是否重启
+    package: com.android.chrome # 手机启动包
+    activity: com.google.android.apps.chrome.Main # 手机启动页面
+    #browserName: Chrome
+    automationName: UiAutomator2 # 使用的driver
+    noReset: False # 设备重置
+    enableWebviewDetailsCollection: True
+    autoGrantPermissions: True
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 3600
+# 黑名单
+blackList:
+  - click: {by: id, expression: iv_close}
+  - click: {by: xpath, expression: //*[@text='存储']}
+
+
+testcase:
+  # ----------------------------------------------- 商城H5支付 -----------------------------------------------
+  - testcase/appTestcase/android/TestShopPay.yaml/TestShopWechatPay

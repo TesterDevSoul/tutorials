@@ -1,0 +1,19 @@
+desiredCapabilities:
+  - platformName: 'android' # 安卓手机
+    udid: 'emulator-5554'  # 设备ID
+    deviceName: 'emulator-5554' # 设备名
+    restart: true # 是否重启
+    package: com.android.chrome # 手机启动包
+    activity: com.google.android.apps.chrome.Main # 手机启动页面
+    #browserName: Chrome
+    automationName: UiAutomator2 # 使用的driver
+    noReset: False # 设备重置
+    enableWebviewDetailsCollection: True
+    autoGrantPermissions: True
+    unicodeKeyboard: True
+    resetKeyboard: True
+    newCommandTimeout: 3600
+
+testCases:
+  - testCase: 添加成员测试
+    steps:

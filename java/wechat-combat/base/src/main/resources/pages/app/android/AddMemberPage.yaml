@@ -1,0 +1,51 @@
+- method: editAddMember
+  returnClass: AddMemberPage
+  args: # 方法输入参数 参数名：参数类型
+    name: ${username}
+    phone: ${zhPhone}
+  desc: "手动输入添加成员"
+  steps:
+    - key: click  # 方法名 点击
+      value: # 方法参数
+        by: android  # 元素定位方式
+        expression: new UiSelector().text("手动输入添加") # 元素定位表达式
+    - key: send  # 方法名 输入
+      value: # 方法参数
+        by: class  # 元素定位方式
+        expression: android.widget.EditText # 元素定位表达式
+        text: name
+    - key: send  # 方法名 输入
+      value: # 方法参数
+        by: class  # 元素定位方式
+        expression: android.widget.EditText # 元素定位表达式
+        index: 1
+        text: phone
+    - key: click  # 方法名 点击
+      value: # 方法参数
+        by: android  # 元素定位方式
+        expression: new UiSelector().text("保存") # 元素定位表达式
+
+    - key: waitUtil # 方法名 显示等待
+      value: # 方法参数
+        key: contains
+        value: # 方法参数
+          seq: pageSource
+          searchSeq: Toast
+
+
+- method: toSearchPage
+  returnClass: SearchPage
+  args: {} # 方法输入参数
+  desc: "跳转到搜索页面"
+  steps:
+    - key: click  # 方法名 点击
+      value: # 方法参数
+        by: class  # 元素定位方式
+        expression: android.widget.TextView # 元素定位表达式
+        index: 1 # 元素下标为1
+#    - key: waitUtil # 方法名 显示等待
+#      value: # 方法参数
+#        key: find
+#        value: # 方法参数
+#          by: xpath  # 元素定位方式
+#          expression: //*[@class="android.widget.EditText" and @text="搜索"] # 元素定位表达式

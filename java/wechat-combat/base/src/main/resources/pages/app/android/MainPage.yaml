@@ -1,0 +1,25 @@
+- method: toConcatPage
+  returnClass: ConcatPage
+  args: {} # 方法输入参数
+  desc: "跳转到通讯录页面"
+  steps:
+    - key: click  # 方法名 点击
+      value: # 方法参数
+        by: xpath  # 元素定位方式
+        expression: //*[@text="通讯录"] # 元素定位表达式
+    - key: waitUtil # 方法名 显示等待
+      value: # 方法参数
+          key: contains
+          value: # 方法参数
+            seq: pageSource
+            searchSeq: 添加客户
+
+- method: toA
+  returnClass: ConcatPage
+  args: {}
+  desc: "跳转到A页面"
+  steps:
+    - key: click  # 方法名 点击
+      value: # 方法参数
+        by: xpath  # 元素定位方式
+        expression: //*[@text="文档"] # 元素定位表达式

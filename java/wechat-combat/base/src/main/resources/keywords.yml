@@ -1,0 +1,19 @@
+#  Map<String, List<By>>
+
+byList:
+  desc: 元素定位的方式，key为框架的关键字，appium为对应Appium框架的定位方式
+  list:
+    - key: xpath
+      appium: xpath
+      oss: a
+    - key: css
+      appium: cssSelector
+      oss: b
+    - key: androidUIAutomator
+      appium: androidUIAutomator
+      oss: c
+    - key: class
+      appium: className
+      oss: d
+
+a: b
