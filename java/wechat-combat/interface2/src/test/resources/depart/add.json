@@ -1,0 +1,6 @@
+{
+  "name": "${departName}",
+  "parentid": 1,
+  "order": "${orderNum}"
+}
+

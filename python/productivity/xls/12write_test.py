@@ -1,0 +1,45 @@
+# 12write_test.py 测试用例的写入
+#!/usr/bin/env python
+#coding=utf-8
+import xlwt
+
+# dict_rows 是一个嵌套列表，而不是字典列表
+dict_rows = [['用例编号', '模块', '测试标题', '优先级', '前置条件', 'URL', '请求方法', '请求参数', '预期结果', '实际结果'], ['SG_001', '商品查询', '【冒烟】存在商品 ID，可以获取匹配商品信息', 'P0', '1. 存在商品 ID 为【1183231】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1183231', '接口基础功能正常，响应  list 字段中返回名称中包含 id 为【1183231】的商品信息', 1], ['SG_002', '商品查询', '【冒烟】存在的商品编号，可以获取匹配的商品信息', 'P0', '1. 存在商品编号为【00006】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsSn=00006', '接口基础功能正常，响应  list 字段中返回名称中包含 编号为【00006】的商品信息', 1], ['SG_003', '商品查询', '【冒烟】存在的商品名称，可以获取匹配的商品信息', 'P0', '1. 存在商品名称为【玩具】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'name=玩具', '接口基础功能正常，响应  list 字段中返回名称中包含名称为【玩具】的商品信息', 1], ['SG_004', '商品查询', '【流程】不存在的商品ID，list 字段返回空数组', 'P1', '1. 不存在商品 ID 为【987655436】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=987655436', '接口基础功能正常，响应  list 字段返回空数组', 1], ['SG_005', '商品查询', '【流程】不存在的商品编号，list 字段返回空数组', 'P1', '1. 不存在商品编号为【484736】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsSn=484736', '接口基础功能正常，响应  list 字段返回空数组', 1], ['SG_006', '商品查询', '【流程】不存在的商品名称，list 字段返回空数组', 'P1', '1. 不存在商品名称为【test商品名称】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'name=test商品名称', '接口基础功能正常，响应  list 字段返回空数组', 1], ['SG_007', '商品查询', '【流程】传入存在的商品ID和商品编号，可以获取匹配商品信息', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&goodsSn=1110013', '接口基础功能正常，响应  list 字段返回匹配到的商品信息', 1], ['SG_008', '商品查询', '【流程】传入存在的商品ID和商品名称，可以获取匹配商品信息', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&name=悦动纯色自动伸缩牵引器', '接口基础功能正常，响应  list 字段返回匹配到的商品信息', 1], ['SG_009', '商品查询', '【流程】传入存在的商品ID、商品编号和商品名称，可以获取匹配商品信息', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&goodsSn=1110013&name=悦动纯色自动伸缩牵引器', '接口基础功能正常，响应  list 字段返回匹配到的商品信息', 1], ['SG_010', '商品查询', '【流程】不传参数，返回全部商品信息', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', '', '接口基础功能正常，响应  list 字段返回空数组', 1], ['SG_011', '商品查询', '【流程】传入超大的页数 page，响应返回查询页数的值为查询结果的最大页数', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'page=1000', '接口基础功能正常，响应返回查询页数的值为查询结果的最大页数', 1], ['SG_012', '商品查询', '【流程】传入超大的查询数量 limit，响应返回的查询结果数量为查询结果的最大值', 'P1', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'limit=100', '接口基础功能正常，响应返回的查询结果数量为查询结果的最大值', 0], ['SG_013', '商品查询', '【必填】不传 x-litemall-admin-token，返回未登录响应', 'P1', '', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=987655436', '接口基础功能正常\n{\n    "errno": 501,\n    "errmsg": "请登录"\n}', 0], ['SG_014', '商品查询', '【组合】只传 limit', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'limit=1', '接口基础功能正常，响应  limit 字段为 1，list 字段返回 1 个商品信息', 0], ['SG_015', '商品查询', '【组合】只传 page', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'page=10', '接口基础功能正常，响应  page 字段为 10，list 字段返回 10 个商品信息', 0], ['SG_016', '商品查询', '【组合】只传 sort', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'sort=add_time', '接口基础功能正常，响应  page 字段为 1，list 字段返回 10 个商品信息', 0], ['SG_017', '商品查询', '【组合】只传 order', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'order=desc', '接口基础功能正常，响应  page 字段为 1，list 字段返回 10 个商品信息', 0], ['SG_018', '商品查询', '【组合】传 limit  和 page', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'limit=2&page=5', '接口基础功能正常，响应  page 字段为 5，limit 字段为 2，list 字段返回 2 个商品信息', 0], ['SG_019', '商品查询', '【组合】传 limit、page、sort', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'limit=20&page=40&sort=add_time', '接口基础功能正常，响应  page 字段为 40，limit 字段为 20，list 字段返回 20 个商品信息', 0], ['SG_020', '商品查询', '【组合】传 limit、page、sort、order', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_021', '商品查询', '【组合】传 limit、page、sort、order 和存在的 goodsId', 'P2', '1. 存在商品 ID 为【1110013】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_022', '商品查询', '【组合】传 limit、page、sort、order 和存在的 goodsSn', 'P2', '1. 存在商品编号为【1110013】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsSn=1110013&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_023', '商品查询', '【组合】传 limit、page、sort、order 和存在的 name', 'P2', '1. 存在商品名称为【悦动纯色自动伸缩牵引器】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'name=悦动纯色自动伸缩牵引器&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_024', '商品查询', '【组合】传 limit、page、sort、order 和存在的 goodsId、name', 'P2', '1. 存在商品 ID 为【1110013】商品名称为【悦动纯色自动伸缩牵引器】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&name=悦动纯色自动伸缩牵引器&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_025', '商品查询', '【组合】传 limit、page、sort、order 和存在的 goodsId、name、goodsId', 'P2', '1. 存在商品 ID 为【1110013】商品编号为【1110013】商品名称为【悦动纯色自动伸缩牵引器】的商品\n2. 请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&goodsSn=1110013&name=悦动纯色自动伸缩牵引器&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_026', '商品查询', '【组合】传 limit、page、sort、order 和存在的 name、goodsSn', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsSn=1110013&name=悦动纯色自动伸缩牵引器&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_027', '商品查询', '【组合】传 limit、page、sort、order 和存在的 goodsId、goodsSn', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&goodsSn=1110013&limit=10&page=1&sort=add_time&order=desc', '接口基础功能正常，响应返回 list 字段', 1], ['SG_028', '商品查询', '【参数值】order 传入 desc 之外的值', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'order=esc', '接口基础功能正常，响应为：\n{\n    "errno": 402,\n    "errmsg": "arg7排序类型不支持"\n}', 1], ['SG_029', '商品查询', '【参数值】sort 传入 add_time 之外的值', 'P2', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'sort=update_time', '接口基础功能正常，响应为：\n{\n    "errno": 402,\n    "errmsg": "arg6排序字段不支持"\n}', 1], ['SG_030', '商品查询', '【异常】传入多余参数', 'P3', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'GET', 'goodsId=1110013&add_key=add_value', '接口基础功能正常，响应返回 list 字段', 1], ['SG_031', '商品查询', '【异常】使用错误的请求方法', 'P3', '请求头 x-litemall-admin-token 传入登录 token', 'https://litemall.hogwarts.ceshiren.com/admin/goods/list', 'POST', 'goodsId=1110013', '接口基础功能正常，响应为：\n{\n    "errno": 502,\n    "errmsg": "系统内部错误"\n}', 1]]
+
+print("----------------  标题带样式写入测试用例  -------------")
+# 创建 Excel 文件，utf-8在excel中输出中文，默认是ascii
+workbook = xlwt.Workbook(encoding='utf-8')
+# 创建一个sheet 名为调查结果
+worksheet = workbook.add_sheet("测试用例汇总")
+# 初始化样式
+style = xlwt.XFStyle()
+# 为样式创建字体
+font = xlwt.Font()
+font.name = '仿宋'
+font.bold = True  # 粗体
+font.underline = True # 下划线
+font.italic = True  # 斜体字
+style.font = font  # 设定样式
+
+# 通过 enumerate() 函数同时遍历 dict_rows（一个字典的列表）的索引（行号）和元素（行数据）。
+# for row_num, row_data in enumerate(content, start=0):
+for row_num, row_data in enumerate(dict_rows):
+    # print(row_data) ['用例编号', '模块', '测试标题', '优先级', '前置条件', 'URL', '请求方法', '请求参数', '预期结果', '实际结果']
+    for col_num, cell_value in enumerate(row_data):
+        if row_num == 0:
+            # 带样式的输入
+            worksheet.write(row_num, col_num, cell_value, style)
+        else:
+            if col_num == 9:
+                if cell_value == 1:
+                    cell_value = True
+                else:
+                    cell_value = False
+            # 不带样式的输入 将列表中的数据写入对应的单元格
+            worksheet.write(row_num, col_num, cell_value)
+
+
+
+# 保存 Excel 文件
+dst_file = '用例汇总.xls'
+workbook.save(dst_file)

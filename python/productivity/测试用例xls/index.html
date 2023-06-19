@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>霍格沃兹测试开发</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reveal.css">
+
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <!-- highlight Theme -->
+  	
+	  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+	
+	
+		
+	<link rel="stylesheet" href="libs/plugin/chalkboard/style.css">
+	
+	
+	
+		<link rel="stylesheet" href="libs/plugin/customcontrols/style.css">
+	
+	<link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/plugin/alibaba-puhui/puhui.css">
+
+
+
+  <!-- Revealjs Theme -->
+  
+  	<link rel="stylesheet" href="libs/reveal.js/4.1.3/theme/league.css" id="theme">
+  
+  
+
+
+  <!-- Revealjs Theme -->
+  
+
+ 
+</head>
+
+<body>
+  
+
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h1>JMeter安装及配置-Window</h1>
+<p>霍格沃兹测试开发学社</p>
+<p><a href="http://ceshiren.com">ceshiren.com</a></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>目录</h2>
+<ul>
+<li>JMeter工具介绍</li>
+<li>Java安装、配置</li>
+<li>JMeter安装、配置</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>课程目标</h2>
+<ol>
+<li>Window系统安装并打开JMeter工具。</li>
+</ol>
+<ul>
+<li><strong>L1. 性能测试工具-JMeter【当前阶段】</strong></li>
+<li>L2. 性能测试工具-JMeter 参数化与并发</li>
+<li>L3. 性能测试工具-JMeter 分布式与 BeanShell</li>
+<li>L4. 性能测试工具-JMeter 微服务压测</li>
+<li>L5. 性能测试工具-JMeter 二次开发</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>思考</h2>
+<blockquote>
+<p>想要使用JMeter进行压测脚本编写，如何安装并打开JMeter软件？</p>
+</blockquote>
+<p><img src="assets/20230206105644.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>JMeter介绍</h2>
+<pre style="all:unset;"><div><img class="plantuml" src="https://kroki.ceshiren.com/plantuml/svg/eNpdkD0KwkAUhPucInVOkU4ULD2AYApBRXQPoPgbzBL_C7FQCKhNEvEvcRNPs-_tHsNEA4LlzPveMIzeJuUWqVcblXq5qZAqqRlqoWgQo8XZRDCqaJkUZoidg6JpKkQdfE5hQOU1TDUuPbS64GzEgQK1pev-u7jykbq4iyCy01uulFdhbsEs5syRe4sHTkotKI-3uA4zKksYDyHoJRbeJtJbfQoMByJ2BetzdueBD571w9GeJ24SjuYJzl_800G-FjB6_jrIxxHCC9j-90_RjWSCbIY3mWqdWg==" /></div></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>JMeter安装</h2>
+<ul>
+<li>环境准备</li>
+<li>JMeter压缩包安装</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>环境准备</h3>
+<ol>
+<li>jdk下载。</li>
+<li>jdk安装。</li>
+<li>Java环境变量配置。</li>
+</ol>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>jdk下载</h3>
+<ol>
+<li>
+<p>查看windows的系统。</p>
+</li>
+<li>
+<p>下载合适自己系统的jdk，jdk版本需要1.8+。</p>
+<ul>
+<li>64位请选择<a href="https://drive.weixin.qq.com/s?k=ANUAJQeKAAk88WYJIK">X64</a>；</li>
+<li>32位系统请选择<a href="https://drive.weixin.qq.com/s?k=ANUAJQeKAAkO07rfEy">X86</a>。</li>
+</ul>
+</li>
+</ol>
+<p><img src="assets/22.png" alt="">
+jdk版本</p>
+<p><img src="assets/E96B7BB8-D337-4E1D-A08B-FCC9925FBFFF.png" alt="">
+window系统查看</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>jdk安装</h3>
+<ol>
+<li>打开下载的exe文件，选择<strong>是</strong>。</li>
+</ol>
+<p><img src="assets/1.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>jdk安装</h3>
+<ol start="2">
+<li>点击下一步。</li>
+</ol>
+<p><img src="assets/2.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>jdk安装</h3>
+<ol start="3">
+<li>
+<p>更改jdk安装路径：点击 <strong>安装到:</strong> 的右侧 <strong>更改</strong> 按钮，可选择jdk安装的路径。</p>
+</li>
+<li>
+<p>如默认则直接点击下一步，直到完成。</p>
+</li>
+</ol>
+<p><img src="assets/3.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Java环境变量配置</h3>
+<ol>
+<li>打开系统属性中的环境变量。</li>
+</ol>
+<p><img src="assets/4.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Java环境变量配置</h3>
+<ol start="2">
+<li>系统环境变量中添加JAVA_HOME系统变量。
+<ul>
+<li>注意：变量值为自己安装JDK的路径。</li>
+</ul>
+<pre><code class="language-bash">变量名： JAVA_HOME
+变量值： C:\Program Files\Java\jdk-1.8
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/5.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Java环境变量配置</h3>
+<ol start="2">
+<li>
+<p>系统环境变量中添加CLASSPATH系统变量。</p>
+<ul>
+<li>注意：最前面有个点。</li>
+</ul>
+<pre><code class="language-bash">变量名： CLASSPATH
+变量值： .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/6.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Java环境变量配置</h3>
+<ol start="3">
+<li>系统环境变量的PATH的变量值最后末尾，追加配置。
+<ul>
+<li>注意：PATH中不能有java的其他版本配置。</li>
+</ul>
+<pre><code class="language-bash">变量名： PATH
+变量值： %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/7.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Java环境验证</h3>
+<ol>
+<li>
+<p>按 win + R 键 输入 cmd 回车，弹出命令行窗口。</p>
+</li>
+<li>
+<p>输入 java -version 得到版本号相关信息则表示java安装配置成功。</p>
+<pre><code class="language-bash">java -version 
+
+javac
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/8.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>JMeter压缩包安装</h3>
+<ol>
+<li>下载Apache JMeter压缩包：
+<ul>
+<li><a href="https://jmeter.apache.org/download_jmeter.cgi">官网</a></li>
+<li><a href="https://drive.weixin.qq.com/s?k=ANUAJQeKAAkOOWBCet">学社提供</a>「建议」</li>
+</ul>
+</li>
+<li>解压到当前电脑上指定路径。</li>
+</ol>
+<p><img src="assets/20230116105918.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>JMeter环境变量配置</h3>
+<ol>
+<li>打开系统属性中的环境变量。</li>
+</ol>
+<p><img src="assets/4.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>JMeter环境变量配置</h3>
+<ol start="2">
+<li>系统环境变量中添加JMETER_HOME系统变量。
+<ul>
+<li>注意：变量值为自己解压JMeter的路径。</li>
+</ul>
+<pre><code class="language-bash">变量名： JMETER_HOME
+变量值： D:\apache-jmeter-5.5
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/101683276368.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>JMeter环境变量配置</h3>
+<ol start="3">
+<li>系统环境变量的PATH的变量值最后末尾，追加配置。<pre><code class="language-bash">变量名： PATH
+变量值： %JMETER_HOME%\bin;
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/20230505165436.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>JMeter环境验证</h3>
+<ol>
+<li>
+<p>按 win + R 键 输入 cmd 回车，弹出命令行窗口。</p>
+</li>
+<li>
+<p>输入 jmeter – 得到版本号相关信息则表示JMeter安装配置成功。</p>
+<pre><code class="language-bash">jmeter -v
+</code></pre>
+</li>
+</ol>
+<p><img src="assets/151683277318.png" alt=""></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>界面化启动</h2>
+<ol>
+<li>
+<p>按 win + R 键 输入 cmd 回车，弹出命令行窗口。</p>
+</li>
+<li>
+<p>输入 jmeter ，命令行启动JMeter的GUI界面。</p>
+</li>
+</ol>
+<p><img src="assets/20230206105644.png" alt=""></p>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  	
+	<script src="libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="libs/plugin/zoom/zoom.js"></script>
+	<script src="libs/plugin/notes/notes.js"></script>
+	<script src="libs/plugin/search/search.js"></script>
+	<script src="libs/plugin/markdown/markdown.js"></script>
+	<script src="libs/plugin/highlight/highlight.js"></script>
+	<script src="libs/plugin/menu/menu.js"></script>
+	<script src="libs/plugin/math/math.js"></script>
+
+	<script src="libs/plugin/fullscreen/plugin.js"></script>
+  
+  	<script src="libs/plugin/animate/plugin.js"></script>
+  	<script src="libs/plugin/animate/svg.min.js"></script>
+  
+  	
+
+ <!--	<script src="libs/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+<script src="libs/plugin/chalkboard/plugin.js"></script>
+	<script src="libs/plugin/customcontrols/plugin.js"></script>
+	<!-- <script src="libs/plugin/embed-tweet/plugin.js"></script> -->
+	<script src="libs/plugin/anything/plugin.js"></script>
+	<script src="libs/plugin/chart/chart.js"></script>
+	<script src="libs/plugin/chart/plugin.js"></script>
+	<script src="libs/plugin/hogwarts/plugin.js"></script>
+
+  <script>
+
+		const printPlugins = [
+			RevealNotes, 
+			RevealHighlight,
+			RevealMath,
+			RevealAnimate,
+			RevealChalkboard, 
+			// RevealEmbedTweet,
+			RevealChart,
+			
+			RevealHogwartsPPT,
+			
+
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				//RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			width: 1920,
+			height: 1080,
+			
+			plantuml: {
+				serverPath: 'https://plantuml.ceshiren.com/png/'
+			},
+
+			controls: true,
+			controlsTutorial: true,
+			controlsLayout: 'bottom-right',
+			controlsBackArrows: 'faded',
+			progress: true,
+			slideNumber: false,
+			//#showSlideNumber "all" "print" "speaker"
+			hash: true,//#  hash: false,
+			//# respondToHashChanges: true,
+			//# history: false,
+			keyboard: true,
+			//#keyboardCondition: null,
+			overview: true,
+			center: true,
+			touch: true,
+			loop: false,
+			rtl: false,
+			//#navigationMode: 'default', linear grid
+			shuffle: false,
+			fragments: true,
+			fragmentInURL: false,
+			embedded: false,
+			help: true,
+			//#pause: true
+			showNotes: false,
+			autoPlayMedia: false, // TODO fix this to a nullable value
+			//#preloadIframes: null. true false
+			//#autoAnimate: true
+			//#autoAnimateMatcher: null,
+			//#autoAnimateEasing: 'ease',
+			//autoAnimateDuration: 1.0,
+			//#autoAnimateUnmatched: true
+			//#autoAnimateStyles: []
+			autoSlide: 0, // TODO fix this to a falseable value
+			autoSlideStoppable: true,
+			autoSlideMethod: '0',
+			defaultTiming: 120,
+			mouseWheel: false,
+			//#previewLinks: false
+			//#postMessage: true,  // TODO : this can cause issues with the vscode api ???
+			//#postMessageEvents: false,
+			//#focusBodyOnPageVisibilityChange: true,
+			transition: 'fade',
+			transitionSpeed: 'default',
+			backgroundTransition: 'fade',
+			//#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+			//#pdfSeparateFragments: true,
+			//#pdfPageHeightOffset: -1,
+			viewDistance: 3,
+			//#mobileViewDistance: 2,
+			display: 'flex',
+			//#hideInactiveCursor: true,
+			//#hideCursorTime: 5000
+
+			// Parallax Background
+			parallaxBackgroundImage: '',
+			parallaxBackgroundSize: '',
+			parallaxBackgroundHorizontal: 0,
+			parallaxBackgroundVertical: 0,
+			
+			//Presentation Size
+			//#width: 960,
+			//#height: 700,
+			//#margin: 0.04,
+			//#minScale: 0.2,
+			//#maxScale: 2.0
+			//#disableLayout: false
+
+			audio: {
+				prefix: 'audio/', 	// audio files are stored in the "audio" folder
+				suffix: '.ogg',		// audio files have the ".ogg" ending
+				textToSpeechURL: null,  // the URL to the text to speech converter
+				defaultNotes: false, 	// use slide notes as default for the text to speech converter
+				defaultText: false, 	// use slide text as default for the text to speech converter
+				advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+				autoplay: false,	// automatically start slideshow
+				defaultDuration: 5,	// default duration in seconds if no audio is available
+				defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+				playerOpacity: 0.05,	// opacity value of audio player if unfocused
+				playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+				startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+			},
+			
+			chalkboard: { // font-awesome.min.css must be available
+					//src: "chalkboard/chalkboard.json",
+					storage: "chalkboard-demo",
+				},
+			
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+						{ icon: '<i class="fa fa-pen-square"></i>',
+						  title: 'Toggle chalkboard (B)',
+						  action: 'RevealChalkboard.toggleChalkboard();'
+						},
+						{ icon: '<i class="fa fa-pen"></i>',
+						  title: 'Toggle notes canvas (C)',
+						  action: 'RevealChalkboard.toggleNotesCanvas();'
+						}
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+		
+
+	</script>
+
+</body>
+
+</html>

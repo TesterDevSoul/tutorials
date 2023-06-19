@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b34de04-a312-4282-8fdf-d1cf76340f4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/xls/01read_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/02read_row.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/10write_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/11write_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/12write_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/20split_salary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/21split_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls/工资单.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/AddMemberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/AddMemberPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/AppBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/AppBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/ConcatPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/ConcatPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page1/AppBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page1/AppBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page2/AddMemberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/main/java/top/testeru/page2/AddMemberPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/app/src/test/java/top/testeru/member/AddMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/app/src/test/java/top/testeru/member/AddMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/interface/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/interface/api.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/interface/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/interface/token.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/member/MemberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/member/MemberPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/member/MemberProPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/member/MemberProPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/util/FakerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/wechat-combat/web/src/main/java/top/testeru/util/FakerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/productivity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls/read_row.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls/signle_xls_xlsx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls/xls_sheets_xlsx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/from.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/im.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/read_row.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xlsx/xls_to_xlsx.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2RNfbAjOUQV48AAYrvkkEx6czco" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gaigai/tutorials/python/productivity/xls",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.21split_test">
+    <configuration name="04read_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls/04read_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11write_result" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls/11write_result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12write_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls/12write_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20split_salary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls/20split_salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="21split_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls/21split_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="productivity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.21split_test" />
+        <item itemvalue="Python.20split_salary" />
+        <item itemvalue="Python.12write_test" />
+        <item itemvalue="Python.04read_test" />
+        <item itemvalue="Python.11write_result" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b34de04-a312-4282-8fdf-d1cf76340f4c" name="Changes" comment="" />
+      <created>1687095528864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687095528864</updated>
+      <workItem from="1687095531657" duration="7163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/productivity$01read_ex.coverage" NAME="01read_ex Coverage Results" MODIFIED="1687095782508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$12write_test.coverage" NAME="12write_test Coverage Results" MODIFIED="1687099981610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$10write_ex.coverage" NAME="10write_ex Coverage Results" MODIFIED="1687097878726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$20split_salary.coverage" NAME="20split_salary Coverage Results" MODIFIED="1687101452429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$05read_form.coverage" NAME="05read_form Coverage Results" MODIFIED="1687098865027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$11write_result.coverage" NAME="11write_result Coverage Results" MODIFIED="1687099164355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$21split_test.coverage" NAME="21split_test Coverage Results" MODIFIED="1687103629715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$03read_result.coverage" NAME="03read_result Coverage Results" MODIFIED="1687096759522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+    <SUITE FILE_PATH="coverage/productivity$04read_test.coverage" NAME="04read_test Coverage Results" MODIFIED="1687099499372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xls" />
+  </component>
+</project>
