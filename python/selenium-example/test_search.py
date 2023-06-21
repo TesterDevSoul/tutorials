@@ -10,35 +10,57 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestSearch():
-  def setup_method(self, method):
-    self.driver = webdriver.Chrome()
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
-  def wait_for_window(self, timeout = 2):
-    time.sleep(round(timeout / 1000))
-    wh_now = self.driver.window_handles
-    wh_then = self.vars["window_handles"]
-    if len(wh_now) > len(wh_then):
-      return set(wh_now).difference(set(wh_then)).pop()
-  
-  def test_search(self):
-    self.driver.get("https://www.baidu.com/")
-    # webDriver.navigate().refresh()
-    self.driver.forward()
-    self.driver.maximize_window()
-    # webDriver.quit()
-    self.driver.set_window_size()
-    self.driver.quit()
-    self.driver.set_window_size(1344, 815)
 
-    self.driver.find_element(By.ID, "kw").send_keys("Selenium")
-    self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
-    self.vars["window_handles"] = self.driver.window_handles
-    self.driver.find_element(By.XPATH, "//div[@id=\'1\']/div/div/h3/a/em").click()
-    self.vars["win4121"] = self.wait_for_window(2000)
-    self.driver.switch_to.window(self.vars["win4121"])
-  
+class TestSearch():
+    # 每一个方法之前执行
+    def setup_method(self, method):
+        # 打开chrome浏览器
+        self.driver = webdriver.Chrome()
+        self.vars = {}
+
+    # 每一个方法之后执行
+    def teardown_method(self, method):
+        # 浏览器退出 无论断言成功还是失败
+        self.driver.quit()
+
+    # 该方法的作用是等待新的窗口打开，并返回新窗口的句柄
+    # 接受一个可选参数timeout，默认值为2。
+    def wait_for_window(self, timeout=2):
+        # 代码会暂停执行一段由timeout值指定的时间
+        # timeout值除以1000并四舍五入，得到以秒为单位的睡眠持续时间
+        time.sleep(round(timeout / 1000))
+        # 获取当前所有的窗口句柄
+        wh_now = self.driver.window_handles
+        print(wh_now)
+        # 获取之前保存的窗口句柄
+        wh_then = self.vars["window_handles"]
+        print(wh_then)
+
+        # 如果当前窗口句柄的数量 大于 之前保存的窗口句柄数量，执行以下操作：
+        if len(wh_now) > len(wh_then):
+            # set(wh_now).difference(set(wh_then))：计算当前窗口句柄集合与之前窗口句柄集合的差集
+            # 从差集中随机选择一个窗口句柄并返回
+            return set(wh_now).difference(set(wh_then)).pop()
+
+    # 测试用例主程序
+    def test_search(self):
+        # 1. 打开百度页面
+        self.driver.get("https://www.baidu.com/")
+        # 设置窗口大小
+        self.driver.set_window_size(1344, 815)
+        # 搜索框输入搜索关键字：Selenium
+        self.driver.find_element(By.ID, "kw").send_keys("Selenium")
+        # 搜索框输入关键字：回车键
+        self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
+        # 获取当前浏览器的所有窗口
+        self.vars["window_handles"] = self.driver.window_handles
+        time.sleep(2)
+        # 点击搜索结果的第一个
+        self.driver.find_element(By.XPATH,"//*[@id=\"1\"]/h3/a").click()
+        # 标题的断言
+        self.vars["win434"] = self.wait_for_window(2000)
+        # 浏览器窗口的切换
+        self.driver.switch_to.window(self.vars["win434"])
+        # 浏览器标题的断言
+        assert self.driver.title == "Selenium"
+
