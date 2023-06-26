@@ -1,10 +1,9 @@
-package top.testeru.page;
+package com.ceshiren.test;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -12,6 +11,4 @@ import java.util.Map;
 @ToString
 public class Step {
     private String key;
-    private Map<String, Object> value;
-
 }

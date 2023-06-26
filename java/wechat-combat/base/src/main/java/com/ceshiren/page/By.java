@@ -1,4 +1,4 @@
-package top.testeru.page;
+package com.ceshiren.page;
 
 import lombok.Getter;
 import lombok.Setter;

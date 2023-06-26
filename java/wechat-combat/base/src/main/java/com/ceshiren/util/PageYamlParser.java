@@ -1,19 +1,17 @@
-package top.testeru.util;
+package com.ceshiren.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.yaml.snakeyaml.Yaml;
-import top.testeru.AppiumKeyWords;
+import com.ceshiren.AppiumKeyWords;
 
-import top.testeru.page.Case;
-import top.testeru.page.Step;
-import top.testeru.test.TestCase;
+import com.ceshiren.page.Case;
+import com.ceshiren.page.Step;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.HashMap;
@@ -21,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static top.testeru.AppiumKeyWords.getInstance;
+import static com.ceshiren.AppiumKeyWords.getInstance;
 
 public class PageYamlParser {
 

@@ -1,4 +1,4 @@
-package top.testeru.util;
+package com.ceshiren.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package top.testeru;
+package com.ceshiren;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.app.SupportsAutoGrantPermissionsOption;

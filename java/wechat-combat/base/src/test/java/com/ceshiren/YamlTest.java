@@ -1,8 +1,8 @@
-package top.testeru;
+package com.ceshiren;
 
+import com.ceshiren.util.PageYamlParser;
+import com.ceshiren.util.TestCaseYamlParser;
 import org.junit.jupiter.api.Test;
-import top.testeru.util.PageYamlParser;
-import top.testeru.util.TestCaseYamlParser;
 
 public class YamlTest {
     @Test

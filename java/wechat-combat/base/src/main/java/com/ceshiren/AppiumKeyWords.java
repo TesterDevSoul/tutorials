@@ -1,4 +1,4 @@
-package top.testeru;
+package com.ceshiren;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
@@ -17,7 +17,6 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
 
 public class AppiumKeyWords {
     private static AndroidDriver androidDriver;

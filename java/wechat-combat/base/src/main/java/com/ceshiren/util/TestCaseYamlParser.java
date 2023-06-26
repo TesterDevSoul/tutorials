@@ -1,20 +1,15 @@
-package top.testeru.util;
+package com.ceshiren.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import top.testeru.AppiumKeyWords;
-import top.testeru.test.TestCase;
-import top.testeru.test.TestCases;
+import com.ceshiren.test.TestCases;
 
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.List;
-import java.util.Map;
-
-import static top.testeru.AppiumKeyWords.getInstance;
 
 public class TestCaseYamlParser {
     PageYamlParser yamlParser = new PageYamlParser();

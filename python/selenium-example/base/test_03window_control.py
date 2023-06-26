@@ -20,7 +20,7 @@ class TestWindowControl:
         '''
         打开网页
         '''
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         time.sleep(2)
 
     def test_refresh_window(self):
@@ -28,7 +28,7 @@ class TestWindowControl:
         刷新页面
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         # 刷新页面
@@ -41,14 +41,29 @@ class TestWindowControl:
         返回上一页面
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         self.driver.get("https://www.baidu.com/")
         # 强制等待
         time.sleep(2)
-        # 返回上一页面
+        # 返回上一页面 news
         self.driver.back()
+        # 强制等待
+        time.sleep(2)
+    def test_forward(self):
+        '''
+        返回上一页面
+        '''
+        # 打开页面
+        self.driver.get("https://news.baidu.com/")
+        # 强制等待
+        time.sleep(2)
+        self.driver.get("https://www.baidu.com/")
+        # 强制等待
+        time.sleep(2)
+        # 前进到下一个页面   百度
+        self.driver.forward()
         # 强制等待
         time.sleep(2)
 
@@ -57,7 +72,7 @@ class TestWindowControl:
         操作页面最大化和最小化
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         # 最大化窗口
@@ -74,7 +89,7 @@ class TestWindowControl:
         获取页面的标题
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         # 获取页面的标题
@@ -85,7 +100,7 @@ class TestWindowControl:
         获取页面的所有内容
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         # 获取页面的所有内容
@@ -97,7 +112,7 @@ class TestWindowControl:
         获取页面的所有内容
         '''
         # 打开页面
-        self.driver.get("https://vip.ceshiren.com/#/ui_study")
+        self.driver.get("https://news.baidu.com/")
         # 强制等待
         time.sleep(2)
         # 获取页面的URL

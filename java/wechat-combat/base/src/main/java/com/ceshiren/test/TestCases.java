@@ -1,4 +1,4 @@
-package top.testeru.test;
+package com.ceshiren.test;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

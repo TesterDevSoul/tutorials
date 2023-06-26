@@ -1,4 +1,4 @@
-package top.testeru.util;
+package com.ceshiren.util;
 
 import com.apifan.common.random.source.OtherSource;
 import com.apifan.common.random.source.PersonInfoSource;
