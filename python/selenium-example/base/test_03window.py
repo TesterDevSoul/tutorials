@@ -14,19 +14,17 @@ class TestWindowControl:
     def teardown(self):
         self.driver.quit()
 
-
-
+    '''
+    打开网页
+    '''
     def test_open_window(self):
-        '''
-        打开网页
-        '''
         self.driver.get("https://news.baidu.com/")
         time.sleep(2)
 
+    '''
+    刷新页面
+    '''
     def test_refresh_window(self):
-        '''
-        刷新页面
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -36,10 +34,10 @@ class TestWindowControl:
         # 强制等待
         time.sleep(2)
 
+    '''
+    页面回退
+    '''
     def test_back(self):
-        '''
-        返回上一页面
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -51,10 +49,12 @@ class TestWindowControl:
         self.driver.back()
         # 强制等待
         time.sleep(2)
+
+    '''
+    页面前进
+    '''
     def test_forward(self):
-        '''
-        返回上一页面
-        '''
+
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -67,10 +67,10 @@ class TestWindowControl:
         # 强制等待
         time.sleep(2)
 
+    '''
+    最大化窗口、最小化窗口
+    '''
     def test_window(self):
-        '''
-        操作页面最大化和最小化
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -84,10 +84,19 @@ class TestWindowControl:
         # 强制等待
         time.sleep(2)
 
+    '''
+    设置浏览器窗口具体大小
+    '''
+
+    def test_set_window(self):
+        self.driver.get("https://www.baidu.com/")
+        # width 宽度, height 高度
+        self.driver.set_window_size(10, 20)
+        time.sleep(10)
+    '''
+    获取页面的标题
+    '''
     def test_title(self):
-        '''
-        获取页面的标题
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -95,10 +104,10 @@ class TestWindowControl:
         # 获取页面的标题
         print(self.driver.title)
 
+    '''
+    获取页面的所有内容
+    '''
     def test_page(self):
-        '''
-        获取页面的所有内容
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
@@ -106,11 +115,10 @@ class TestWindowControl:
         # 获取页面的所有内容
         print(self.driver.page_source)
 
-
+    '''
+    获取页面的URL
+    '''
     def test_url(self):
-        '''
-        获取页面的所有内容
-        '''
         # 打开页面
         self.driver.get("https://news.baidu.com/")
         # 强制等待
